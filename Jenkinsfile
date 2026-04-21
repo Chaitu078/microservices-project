@@ -8,7 +8,7 @@ pipeline {
                     caCertificate: '',
                     clusterName: 'EKS-1',
                     contextName: '',
-                    credentialsId: 'k8s-token',
+                    credentialsId: 'k8-token',
                     namespace: 'webapps',
                     serverUrl: 'https://DAC216971F878914FE8892C5F3DB91ED.gr7.us-east-1.eks.amazonaws.com'
                 ]]) {
@@ -23,7 +23,7 @@ pipeline {
                     caCertificate: '',
                     clusterName: 'EKS-1',
                     contextName: '',
-                    credentialsId: 'k8s-token',
+                    credentialsId: 'k8-token',
                     namespace: 'webapps',
                     serverUrl: 'https://DAC216971F878914FE8892C5F3DB91ED.gr7.us-east-1.eks.amazonaws.com'
                 ]]) {
